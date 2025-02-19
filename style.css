@@ -26,7 +26,7 @@
   25% {
     position: relative;
     top: 30vh;
-    left: 30px;
+    left: 10px;
     border: 15px solid blue;
     height: 200px;
     width: 200px;
@@ -35,7 +35,7 @@
   50% {
     position: relative;
     top: 30vh;
-    left: 30px;
+    left: 20px;
     border: 15px solid rgb(66, 165, 218);
     height: 600px;
     width: 600px;
