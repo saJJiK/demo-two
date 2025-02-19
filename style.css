@@ -1,0 +1,62 @@
+.circle {
+  position:fixed;
+  top: 30vh;
+  left: 30%;
+  height: 20px;
+  width: 20px;
+  border: 5px solid black;
+  border-radius: 20px;
+  animation-name: sample;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sample {
+  0% {
+    position: relative;
+    top: 30vh;
+    left: 30px;
+
+    border: 15px solid green;
+    height: 40px;
+    width: 40px;
+
+    border-radius: 40px;
+  }
+  25% {
+    position: relative;
+    top: 30vh;
+    left: 30px;
+    border: 15px solid blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+  }
+  50% {
+    position: relative;
+    top: 30vh;
+    left: 30px;
+    border: 15px solid rgb(66, 165, 218);
+    height: 600px;
+    width: 600px;
+    border-radius: 600px;
+  }
+  75% {
+    position: relative;
+    top: 30vh;
+    left: 30px;
+    border: 15px solid green;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 1000px;
+  }
+  100% {
+    position: relative;
+    top: 30vh;
+    left: 30px;
+    border: 15px solid orange;
+    height: 1400px;
+    width: 1400px;
+    border-radius: 1400px;
+  }
+}
